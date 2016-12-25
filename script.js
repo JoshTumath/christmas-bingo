@@ -58,6 +58,11 @@ class BingoBoardView {
 
   renderNextNumber(nextNumber) {
     this.$lastNumber.text(nextNumber);
+    this.$getBoardNumberElement(nextNumber).addClass('called');
+  }
+
+  $getBoardNumberElement(number) {
+    return this.$board.find(`li:nth-child(${number - 1})`);
   }
 }
 

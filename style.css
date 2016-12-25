@@ -32,6 +32,10 @@ body {
   font-size: 2rem;
 }
 
+.bingo-board li.called {
+  background: green;
+}
+
 aside {
   float: right;
   width: 32%;
