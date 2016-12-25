@@ -1,0 +1,54 @@
+body {
+  background: black;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.bingo-board {
+  float: left;
+  width: 65%;
+  padding: 0 0.5rem 0.5rem 0;
+  background: #222;
+}
+
+.bingo-board ul {
+  margin: 0;
+  padding: 0;
+}
+
+.bingo-board li,
+.last-number output {
+  display: block;
+  width: 1.5em;
+  background: #555;
+  border-radius: 100%;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.bingo-board li {
+  float: left;
+  margin: 0.5rem 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+aside {
+  float: right;
+  width: 32%;
+}
+
+.controls h2 {
+  display: none;
+}
+
+.controls button {
+  padding: 0.25em 0.5em;
+  background: green;
+  border: solid currentcolor;
+  font: 2rem Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.last-number output {
+  font-size: 8rem;
+}
